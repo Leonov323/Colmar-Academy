@@ -50,7 +50,7 @@ a {
 /* Main content */
 
 .main__top {
-  background-color: gray;
+  background-color: lightgray;
   width: 100%;
   align-items: center;
   display: flex;
@@ -104,7 +104,7 @@ a {
 }
 
 .gray-box {
-  background-color: gray;
+  background-color: lightgray;
   display: flex;
   font-size: 0.5em;
   justify-content: flex-start;
@@ -113,4 +113,36 @@ a {
 
 .main__bottom a {
   color: blue;
+}
+
+
+#start-learning {
+  padding: 32px 56px;
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 335px;
+  height: 400px;
+  margin: 32px 16px 0 16px;
+  background-color: white;
+}
+
+
+.start-learning__box_description {
+  margin: 16px;
+}
+
+#thesis-exhibit {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  padding: 32px 12px 32px 32px;
+  text-align: center;
 }
