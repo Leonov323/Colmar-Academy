@@ -39,12 +39,12 @@ ul {
 
 li {
   list-style-type: none;
-  margin: 16px;
 }
 
 a {
   text-decoration: none;
   color: black;
+  margin: 16px;
 }
 
 /* Main content */
@@ -144,5 +144,12 @@ a {
   width: 100%;
   flex-flow: row wrap;
   padding: 32px 12px 32px 32px;
-  text-align: center;
+}
+
+footer {
+  padding: 16px 24px 48px 24px;
+  border-top: 1px solid gray;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
