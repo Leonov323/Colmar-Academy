@@ -120,7 +120,6 @@ a {
   padding: 32px 56px;
   width: 100%;
   background-color: lightgray;
-  text-align: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -128,7 +127,7 @@ a {
 
 .box {
   width: 335px;
-  height: 400px;
+  height: auto;
   margin: 32px 16px 0 16px;
   background-color: white;
 }
@@ -152,4 +151,5 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  
 }
