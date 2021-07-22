@@ -44,9 +44,11 @@ li {
 
 header a {
   text-decoration: none;
-  color: black;
   margin: 16px;
+  color:  black;
 }
+
+
 
 /* Main content */
 
@@ -55,6 +57,11 @@ header a {
   width: 100%;
   align-items: center;
   display: flex;
+}
+
+.main__top a {
+  text-decoration: none;
+  margin: 16px;
 }
 
 .main__bottom {
@@ -124,6 +131,15 @@ header a {
   justify-content: center;
 }
 
+.box a {
+  text-decoration: none;
+  color:  black;
+}
+
+.box:hover {
+  border: 1px solid black;
+}
+
 .box {
   width: 335px;
   height: auto;
@@ -150,4 +166,10 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+footer a {
+  margin: 16px;
+  color: black;
+  text-decoration: none;
 }
