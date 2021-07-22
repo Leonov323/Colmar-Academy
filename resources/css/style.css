@@ -76,20 +76,20 @@ a {
   color: white;
 }
 
-.left-box {
+.left-block {
   width: 60%;
   padding: 32px 24px;
 }
 
-.left-box img{
+.left-block img{
   width: 100%;
 }
 
-.right-box {
+.right-block {
   width: 40%;
 }
 
-.right-box img {
+.right-block img {
   width: 35%;
   height: auto;
   padding: 16px;
