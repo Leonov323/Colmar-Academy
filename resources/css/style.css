@@ -151,7 +151,7 @@ a {
 }
 
 
-.start-learning__box_description {
+.start-learning__box_description article, h2 {
   margin: 16px;
 }
 
