@@ -54,24 +54,15 @@ a {
 
 
 /* Main content */
-
-.main__top {
+#start-here {
   background-color: lightgray;
   width: 100%;
   align-items: center;
   display: flex;
 }
 
-.main__top a {
+#start-here a {
   margin: 16px;
-}
-
-.main__bottom {
-  background-color: white;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  align-items: flex-start;
 }
 
 .buttun {
@@ -83,6 +74,8 @@ a {
   display: block;
   color: white;
 }
+
+
 
 .left-block {
   width: 60%;
@@ -105,6 +98,18 @@ a {
   padding: 16px;
 }
 
+#articles {
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: flex-start;
+}
+
+#articles a {
+  color: blue;
+}
+
 .white-box {
   background-color: white;
   display: flex;
@@ -120,11 +125,6 @@ a {
   font-size: 12px;
   align-items: center;
 }
-
-.main__bottom a {
-  color: blue;
-}
-
 
 #start-learning {
   padding: 32px 56px;
