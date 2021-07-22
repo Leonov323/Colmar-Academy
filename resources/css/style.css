@@ -63,9 +63,10 @@ a {
 
 #start-here a {
   margin: 16px;
+  color: white;
 }
 
-.buttun {
+button {
   margin-left: 24px;
   width: 70%;
   background-color: #2c2626;
@@ -73,6 +74,7 @@ a {
   padding: 8px 20px;
   display: block;
   color: white;
+  cursor: pointer;
 }
 
 
@@ -185,4 +187,9 @@ h1 {
   .left-block { width: 100%; }
   .right-block { width: 100%;}
   .main__bottom {flex-direction: column; padding: 16px; }
+}
+
+.center {
+  width: 100%;
+  text-align: center;
 }
