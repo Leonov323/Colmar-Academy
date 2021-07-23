@@ -3,7 +3,6 @@
 }
 
 body {
-  background-color: ;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -92,6 +91,7 @@ button {
   width: 40%;
   display: flex;
   flex-direction: column;
+  padding: 32px 24px;
 }
 
 .right-block img {
@@ -182,11 +182,15 @@ h1 {
   font-size: 2.5em;
 }
 
-@media only screen and (max-width: 480px) {
-  .main__top {flex-direction: column; padding: 16px; }
-  .left-block { width: 100%; }
-  .right-block { width: 100%;}
-  .main__bottom {flex-direction: column; padding: 16px; }
+@media only screen and (max-width: 768px) {
+  #start-here, #articles {flex-direction: column; padding: 16px; }
+  .left-block, .right-block { width: 100%;
+  }
+
+  header h2{
+    display: none;
+  }
+
 }
 
 .center {
