@@ -214,8 +214,8 @@ header, .mobile-nav  {
   .on-campus, .online, .sign-in, .mobile-logo{
     height: 64px;
     width: auto;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
 }
