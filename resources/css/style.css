@@ -182,18 +182,40 @@ h1 {
   font-size: 2.5em;
 }
 
-@media only screen and (max-width: 768px) {
-  #start-here, #articles {flex-direction: column; padding: 16px; }
-  .left-block, .right-block { width: 100%;
-  }
-
-  header h2{
-    display: none;
-  }
-
-}
-
 .center {
   width: 100%;
   text-align: center;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #start-here, #articles{
+    flex-direction: column; padding: 16px;
+  }
+
+  .left-block, .right-block {
+    width: 100%;
+  }
+
+  header h2, nav ul, .logo {
+    display: none;
+  }
+
+header, .mobile-nav  {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+  .on-campus, .online, .sign-in, .mobile-logo{
+    height: 64px;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
 }
